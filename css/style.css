@@ -63,3 +63,12 @@ header{
     width: 60%;
     margin: 0 auto;
 }
+/* quarta sezione */
+#_inputname, #_inputemail, #_inputphone, #_inputtext{
+    border-style: hidden;
+    border-bottom-style:solid;
+}
+label{
+    font-size: 1.2em;
+    font-weight: 500;
+}
