@@ -6,15 +6,7 @@
     background-color: #2C3E50;
 }
 /* pagina */
-header{
-    min-height: 90px;
-}
-#start{
-    margin-top: 90px;
-}
-#start img{
-    max-width: 250px;
-}
+/* general */
 .fa-star{
     font-size: 2rem;
 }
@@ -31,6 +23,42 @@ p{
 h2{
     font-weight: 600;
 }
+/* header */
+header{
+    min-height: 90px;
+}
+/* prima sezione */
+#start img{
+    max-width: 250px;
+}
+/* seconda sezione */
+.img-wrapper{
+    position: relative;
+}
+._plus-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.7);
+    cursor: pointer;
+    display: none;
+}
+._plus-hover i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+.img-wrapper:hover ._plus-hover{
+    display: block;
+}
+._plus-hover i:hover{
+    font-size: 80px;
+}
+/* terza sezione */
 ._wrapper{
     width: 60%;
     margin: 0 auto;
