@@ -1,0 +1,23 @@
+/* colori di sfondo */
+._bg-green{
+    background-color: #1ABC9C;
+}
+._bg-dark{
+    background-color: #2C3E50;
+}
+/* pagina */
+header{
+    min-height: 90px;
+}
+#start{
+    margin-top: 90px;
+}
+#start img{
+    width: 300px;
+}
+.fa-star{
+    font-size: 2.5rem;
+}
+.bar{
+    width: 80px;
+}
