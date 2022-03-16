@@ -13,11 +13,25 @@ header{
     margin-top: 90px;
 }
 #start img{
-    width: 300px;
+    max-width: 250px;
 }
 .fa-star{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .bar{
     width: 80px;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+h2{
+    font-weight: 600;
+}
+._wrapper{
+    width: 60%;
+    margin: 0 auto;
 }
